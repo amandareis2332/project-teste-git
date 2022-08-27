@@ -1,0 +1,2 @@
+fruta = 'abacate'
+print(fruta)
