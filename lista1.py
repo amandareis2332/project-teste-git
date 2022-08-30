@@ -152,5 +152,63 @@ f = 25
 resultado = ((um + dois) / f/cinco)
 print(resultado)
 
+#d mais operadores logicos
+calculo1 = dois ** quatro
+print(calculo1)
+
+g = 26
+calculo2 = g % cinco
+print(calculo2)
+
+#RESOLUÇÃO EX04-LISTA01
+#x=10
+#x=x+10
+#print(x)
+#coloquei como comentario para não alterar o resultado de x
+
+cem = 100
+x = cem - x
+print(x)
+
+#RESOLUÇÃO EXERCICIO 5.A) resultado 4
+lado = 2
+areaquad = lado * lado
+print(areaquad)
+
+#RESOLUÇÃO EXERCICIO 5.A) resultado 114.0
+mala = 120.0
+malacomdes = mala * 0.95
+print(malacomdes)
+
+#RESOLUÇÃO EXERCICIO 5. B) resultado 2.0 horas
+velocidade = 100
+distancia = 200
+tempo = distancia/velocidade
+print(tempo, "horas")
+
+#RESOLUÇÃO EXERCICIO 5. C) resultado 6 
+joao = 2
+maria = 3
+sofia = 1
+somapirulitos = joao + maria + sofia
+print(somapirulitos)
+
+#RESOLUÇÃO EXERCICIO 5. D) 
+idadedavi = 13
+idadeirma = 7
+if idadedavi > idadeirma:
+    print("eh_mais_velho")
+
+
+#RESOLUÇÃO EXERCICIO 6 
+
+
+
+
+
+
+
+
+
 
 
