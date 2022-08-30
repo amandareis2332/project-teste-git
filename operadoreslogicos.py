@@ -1,7 +1,7 @@
 # andorNot
 
-num1 = 7
-num2 = 4
+#num1 = 7
+#num2 = 4
 
 #exemplo operador and
 #if num1 > 3 and num2 < 8:
@@ -21,6 +21,13 @@ num2 = 4
 #se eu tiver multiplicaçao e divisao na mesma linha
 #ele comeca o calculo da esquerda para a direita
 
-calculo = (2 + 2) * 3 
-print(calculo)
+#calculo = (2 + 2) * 3 
+#print(calculo)
+
+#rendaacimadecincomil = False
+#nomelimpo = False
+#if rendaacimadecincomil and nomelimpo:
+#    print("financiamento aprovado")
+#else:
+#    print("financimento negado")
 
