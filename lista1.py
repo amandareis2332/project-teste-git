@@ -200,7 +200,73 @@ if idadedavi > idadeirma:
     print("eh_mais_velho")
 
 
-#RESOLUÇÃO EXERCICIO 6 
+#RESOLUÇÃO EXERCICIO 6  - resultado 5
+z = 3
+z +=2
+print(z)
+
+z *= 6 #resultado 30
+print(z)
+
+z /= 5
+print(z) #resultado 6.0
+
+
+#RESOLUÇÃO EXERCICIO 7
+
+ovo = 3.4
+caju = 12.4
+resposta = ovo if 1 > 2 else caju
+print(resposta) #resposta 12.4
+
+resposta = ovo if ovo > caju else caju
+print(resposta) #resposta 12.4
+
+resposta = ovo if ovo < caju else caju
+print(resposta) #resposta 3.4
+
+resposta = 100 if ovo + caju > 15 else 200
+print(resposta) #resposta 100
+
+resposta = 100 if ovo == 3 else 0
+print(resposta) #resposta 0
+
+#RESOLUÇÃO EXERCICIO 7
+ab = 10
+Ab = 20
+aB = 30
+AB = ab + Ab - aB
+print(AB) #resposta 0
+
+fim = AB + 1
+print(fim) #resposta 1
+
+#RESOLUÇÃO EXERCICIO 9
+valor = input("Informe um valor: ")
+print(valor)
+#pede para informar um valor
+
+print("Valor informado: ", valor)
+#Valor informado: (o valor que eu coloquei)
+
+tipo = type(valor)
+print(tipo) #tipo = type(valor)
+
+x_str = "123"
+print(x_str) #resultado123 string
+
+x = int(x)
+print(x) #aparece o ultimo resultado que usei para x como int
+
+xf = float(x)
+print(xf) #APARECE X COMO FLOAT
+
+
+
+if x == xf:
+    print("são_iguais") #sao iguais
+
+print("Um float é igual a um int?", sao_iguais)
 
 
 
