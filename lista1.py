@@ -130,18 +130,27 @@ else:
 
 cinco = 5
 seis = 6
+
 if cinco >= seis:
     print(True)
 else:
     print(False)
+
 
 if dois > um and dois < 3:
     print("Verdadeiro")
 else:
     print("Não é verdade")
 
+
 if dois > um and dois < dois:
     print("verdadeiro")
 else:
     print("não é verdadeiro")
-    
+
+f = 25
+resultado = ((um + dois) / f/cinco)
+print(resultado)
+
+
+
