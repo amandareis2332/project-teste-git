@@ -261,12 +261,12 @@ print(x) #aparece o ultimo resultado que usei para x como int
 xf = float(x)
 print(xf) #APARECE X COMO FLOAT
 
-
-
-if x == xf:
-    print("são_iguais") #sao iguais
+sao_iguais = x == xf
 
 print("Um float é igual a um int?", sao_iguais)
+
+
+
 
 
 
