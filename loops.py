@@ -20,6 +20,34 @@
 #    print("falha na compra")
 
 
-for numero in range(5):
-    print(numero)
+#for numero1 in range(5):
+#    print(numero1)
+#    for numero2 in range(5):
+#        print(2)
 
+#space in the words
+#palavra = "FANTASTICO"
+
+#for spaco in palavra:
+#    print(spaco, end= "n")
+
+
+#criar um retangulo com simbolos usando for
+
+
+#linhas = 6
+#coluna = 6
+#simbolo = "@"
+
+#for l in range (linhas):
+#    for c in range (coluna):
+#        print(simbolo, end="")
+#    print()
+
+valor = 100
+dia = 1
+while valor > 20:
+    dia +=1
+    print(dia)
+    print(valor)
+    valor -= 5 
