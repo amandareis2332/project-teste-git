@@ -9,3 +9,5 @@ sublista = lista[1]
 print(f"acessando sublista: {sublista}")
 
 
+
+
