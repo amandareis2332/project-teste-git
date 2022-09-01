@@ -1,6 +1,6 @@
 carrinho = []
 acao = ""
-while acao != "S":
+while acao != "S":    
     print("Aperte A para adicionar")
     print("Aperte L para listar os produtos")
     print("Aperte C para consultar item")
@@ -10,7 +10,6 @@ while acao != "S":
     acao= acao.upper()
     if acao == "A":
         print("Adicionou")
-        # adicionar um item no carrinho
         id_produto = input("informe o id do produto")
         valor_produto = input("informe o valor do produto")
         quantidade_produto = input("Qual a quantidade?")
@@ -37,12 +36,6 @@ while acao != "S":
             else:
                 if acao == "R":
                     print("Removeu")
-                    # remover um item do seu carrinho pelo id do produto
-
-
- 
-
-
-
-
-
+                    for index, elemento in enumerate(carrinho):
+                        if id_produto == elemento[0]:
+                            carrinho.pop(index)                          
