@@ -63,9 +63,6 @@ print(chave4)
 def lernumeros():
     lista = [1,2,3,4,5,6,7,8,9]
     return lista
-    print(lernumeros(0))
-
-soma = 0
 
 def somarlista(lista):
     soma = sum(lista)

@@ -4,10 +4,20 @@
 #else:
 #    print('tem o c na lista')
 
-lista = ["maca",["banana","caju"], "melao", "abacaxi"]
-sublista = lista[1]
-print(f"acessando sublista: {sublista}")
 
+'''
+#udemy extraindo variaveis de listas (unpacking lists)
+produtos = [["maca","banana","caju"], "melao", "abacaxi"]
+#                 0                       1       2
+item1, item2, *outros = produtos
+print(item1)
+print(item2)
+print(outros)
+'''
+x = [50, 80, 110, 150, 170]
+print(x)
+
+y = [2,4,8,16]
 
 
 
